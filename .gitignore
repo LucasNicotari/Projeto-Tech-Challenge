@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 venv/
 __pycache__/
 *.pyc
 *.log
 .vscode/
 .env
+=======
+venv/
+__pycache__/
+*.pyc
+*.log
+.vscode/
+.env
+>>>>>>> 6bc443b40740c027b33a293b3ab6378e9156b514
