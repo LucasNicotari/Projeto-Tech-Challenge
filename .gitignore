@@ -1,15 +1,55 @@
-<<<<<<< HEAD
-venv/
-__pycache__/
-*.pyc
-*.log
-.vscode/
+# Arquivos de configuração sensíveis
 .env
-=======
-venv/
+*.env
+
+# Dados baixados
+downloads/
+data/
+logs/
+
+# Arquivos Python
 __pycache__/
-*.pyc
-*.log
-.vscode/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
 .env
->>>>>>> 6bc443b40740c027b33a293b3ab6378e9156b514
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
